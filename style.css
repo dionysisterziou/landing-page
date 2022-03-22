@@ -35,3 +35,8 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+img {
+    width: 400px;
+    height: auto;
+}

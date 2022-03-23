@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
     box-sizing: border-box;
 
@@ -28,7 +28,6 @@ body {
     color: #f9faf8;
 }
 
-
 .logo {
     align-self: center;
     font-size: 24px;
@@ -54,9 +53,13 @@ a {
     text-decoration: none;
 }
 
+.text-image,
+.quote {
+    padding: 100px 150px;
+}
+
 .text-image {
     display: flex;
-    padding: 100px 150px;
     justify-content: space-between;
     gap: 20px;
 }
@@ -110,4 +113,28 @@ button {
 .image-text {
     text-align: center;
     width: 160px;
+}
+
+.quote  {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7e5;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+}
+
+em {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-weight: 900;
 }

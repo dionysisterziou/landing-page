@@ -54,7 +54,8 @@ a {
 }
 
 .text-image,
-.quote {
+.quote,
+.call-to-action {
     padding: 100px 150px;
 }
 
@@ -77,8 +78,12 @@ a {
 button {
     background-color: #3882f6;
     padding: 5px 30px;
-    border-radius: 8px;
     margin-top: 10px;
+}
+
+button,
+.call-to-action-container {
+    border-radius: 8px;
 }
 
 .information {
@@ -116,7 +121,7 @@ button {
     width: 160px;
 }
 
-.quote  {
+.quote {
     display: flex;
     flex-direction: column;
     background-color: #e5e7e5;
@@ -138,4 +143,30 @@ em {
 .quotee {
     align-self: flex-end;
     font-weight: 900;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    flex: 1;
+}
+
+.call-to-action-text {
+    color: white;
+}
+
+.call-to-action-primary {
+    font-size: 18px;
+}
+
+.call-to-action-button {
+    border: 1px solid white;
 }

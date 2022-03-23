@@ -13,7 +13,8 @@ body {
     box-sizing: inherit;
 }
 
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
 }
 
@@ -44,7 +45,8 @@ body {
 
 a,
 .secondary,
-button {
+button,
+.call-to-action-primary {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -124,7 +126,7 @@ button,
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7e5;
+    background-color: #e5e7eb;
     align-items: center;
 }
 
@@ -159,14 +161,20 @@ em {
     flex: 1;
 }
 
-.call-to-action-text {
-    color: white;
+.call-to-action-primary {
+    font-weight: 900;
 }
 
-.call-to-action-primary {
-    font-size: 18px;
+.call-to-action-secondary {
+    color: #e5e7eb;
 }
 
 .call-to-action-button {
     border: 1px solid white;
+}
+
+.footer {
+    color: #e5e7eb;
+    text-align: center;
+    padding: 25px 0;
 }

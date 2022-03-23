@@ -7,6 +7,12 @@ body {
 
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .hero {
     background-color: #1f2937;
 }
@@ -60,7 +66,7 @@ a {
     font-weight: 900;
 }
 
-img {
+.hero-image {
     width: 480px;
     height: auto;
 }
@@ -70,4 +76,9 @@ button {
     padding: 5px 30px;
     border-radius: 8px;
     margin-top: 10px;
+}
+
+.information-image {
+    width: 200px;
+    height: auto;
 }
